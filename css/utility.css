@@ -1,0 +1,35 @@
+.container 
+{
+    width: 1460px;
+    max-width: 90%;
+    margin: 0 auto;
+}
+
+.hero .cta h1{
+    font-weight: 400;
+    font-weight: 22px;
+    line-height: 1.7;
+    margin-bottom: 30px
+}
+
+.btn {
+    outline: none;
+  font-size: 16px;
+  padding: 5px 10px;
+  border-radius: 50px;
+  border: 1px solid transparent;
+  cursor: pointer;
+}
+
+.btn-primary{
+    color: var(--dark);
+    background-color: var(--pure);
+    transition: all .5s ease-in-out;
+}
+
+.btn-primary:hover{
+    background: transparent;
+    color: var(--pure);
+    border: 1px solid var(--pure);
+
+}
